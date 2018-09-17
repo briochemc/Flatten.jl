@@ -10,7 +10,7 @@ while still providing access to differentiation, solvers and optimisers that
 require flat vectors of parameters. Importantly it's also fast and type-stable.
 
 
-Flatten.jl uses [Tags.jl](https://github.com/rafaqz/Tags.jl) to provide
+[Flatten.jl](https://github.com/rafaqz/Flatten.jl) uses [Tags.jl](https://github.com/rafaqz/Tags.jl) to provide
 `@flattenable` macro to define which struct fields are to be flattened. It also
 provides `tagflatten()` to flatten any other Tags.jl tag into the same sized
 vector as `flatten()`. This can be useful for attaching Bayesian priors or optional
